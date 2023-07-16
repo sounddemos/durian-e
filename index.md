@@ -21,31 +21,54 @@ Experimental results prove that the proposed expressive TTS model in this paper 
 <br>
 ## synthesized demos from different systems
 <br>
+<br>
 
 <table align="center">
   <thead>
     <tr>
-      <th>GT (vocoder)</th>
-      <th>FastSpeech 2</th>
-      <th>DurIAN</th>
-      <th>DiffSpeech</th>
-      <th>DurIAN-E</th>
+      <th>System</th>
+      <th>Demo1</th>
+      <th>Demo2</th>
     </tr>
   </thead>
   <tbody>
     
    <tr>
+      <td>GT (vocoder) </td>
       <td><audio controls="" preload="auto">
             <source src="wavs/gt/test01.wav"></audio></td>
-      <td><audio controls="" preload="auto">
+       <td><audio controls="" preload="auto">
+            <source src="wavs/gt/test02.wav"></audio></td>
+     
+   </tr>
+   <tr>
+   <td>FastSpeech 2 </td>
+    <td><audio controls="" preload="auto">
             <source src="wavs/fs/test01.wav"></audio></td>
-      <td><audio controls="" preload="auto">
+    <td><audio controls="" preload="auto">
+            <source src="wavs/fs/test02.wav"></audio></td>
+    
+   </tr>
+   <tr>
+    <td>DurIAN </td>
+     <td><audio controls="" preload="auto">
             <source src="wavs/durian/test01.wav"></audio></td>
-      <td><audio controls="" preload="auto">
-            <source src="wavs/ds/test01.wav"></audio></td>
-      <td><audio controls="" preload="auto">
-            <source src="wavs/duriane/test01.wav"></audio></td>
-    </tr>
-   
+    <td><audio controls="" preload="auto">
+            <source src="wavs/durian/test02.wav"></audio></td>
+   </tr>
+   <tr>
+    <td>DiffSpeech </td>
+     <td><audio controls="" preload="auto">
+            <source src="wavs/durian/test01.wav"></audio></td>
+    <td><audio controls="" preload="auto">
+            <source src="wavs/durian/test02.wav"></audio></td>
+   </tr>
+   <tr>
+    <td>DurIAN-E </td>
+     <td><audio controls="" preload="auto">
+            <source src="wavs/durian/test01.wav"></audio></td>
+    <td><audio controls="" preload="auto">
+            <source src="wavs/durian/test02.wav"></audio></td>
+   </tr>
   </tbody>
 </table>
